@@ -10,6 +10,10 @@ Shafiu been a benz mechanic in a remote place shafiu hardly get customers. The d
 - Auto parts
 - call throught the platform
 
+
+## RUn
+open the app-debug.apk  
+
 ## proficiency level
 beginners
 
@@ -18,5 +22,3 @@ Integration of map
 real time changes
 buying autoparts online
 
-##RUn
-open the app-debug.apk 
