@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:id="@+id/engineOil"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/fishery"/>
+
+           <TextView
+               android:id="@+id/title"
+               android:layout_width="wrap_content"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:fontFamily="sans-serif"
+               android:layout_height="wrap_content"
+               android:text="Replace Oil Engine"
+               android:layout_toRightOf="@+id/engineOil"
+               />
+           <TextView
+               android:id="@+id/description"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:textSize="15sp"
+               android:text="We replace the Engine with Amasco oil, Total Oil Or Oando Oil"
+               android:layout_toRightOf="@id/engineOil"
+               android:layout_below="@+id/title"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="N2000"
+               android:layout_marginLeft="140dp"
+               android:layout_marginTop="10dp"
+               android:textColor="@color/colorPrimary"
+               android:layout_marginBottom="12dp"
+               android:layout_toRightOf="@id/engineOil"
+               android:layout_below="@+id/description"
+               />
+       </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

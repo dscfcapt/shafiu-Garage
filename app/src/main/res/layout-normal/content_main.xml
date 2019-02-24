@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:layout_constraintVertical_chainStyle="packed"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="16dp">
+       <Button
+           android:id="@+id/findUs"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="40dp"
+           android:background="@drawable/btn_round"
+           android:fontFamily="@font/aclonica"
+           android:padding="25dp"
+           android:text="Find Us"
+           android:textColor="#FFF"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/autoPart" />
+
+       <!--<Button-->
+       <!--android:id="@+id/callUs"-->
+       <!--android:layout_width="300dp"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:layout_marginBottom="8dp"-->
+       <!--android:layout_marginEnd="8dp"-->
+       <!--android:layout_marginStart="8dp"-->
+       <!--android:layout_marginTop="8dp"-->
+       <!--android:background="@drawable/btn_round"-->
+       <!--android:fontFamily="@font/aclonica"-->
+       <!--android:padding="25dp"-->
+       <!--android:text="Call Us Now"-->
+       <!--android:textAlignment="center"-->
+       <!--android:textColor="#FFF"-->
+       <!--android:textSize="12sp"-->
+       <!--android:textStyle="bold"-->
+       <!--app:layout_constraintBottom_toBottomOf="parent"-->
+       <!--app:layout_constraintEnd_toEndOf="parent"-->
+       <!--app:layout_constraintStart_toStartOf="parent"-->
+       <!--app:layout_constraintTop_toBottomOf="@+id/button3"-->
+       <!--app:layout_constraintVertical_bias="0.271" />-->
+
+       <Button
+           android:id="@+id/regularService"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="28dp"
+           android:background="@drawable/btn_round"
+           android:fontFamily="@font/aclonica"
+           android:padding="25dp"
+           android:text="Regular Services"
+           android:textColor="#FFF"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <Button
+           android:id="@+id/autoPart"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="28dp"
+           android:background="@drawable/btn_round"
+           android:fontFamily="@font/aclonica"
+           android:padding="25dp"
+           android:text="Auto Parts"
+           android:textColor="#FFF"
+           android:textSize="12sp"
+           android:textStyle="bold"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/regularService" />
+
+   </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        android:src="@drawable/ic_call_black_24dp"/>
+
+</android.support.design.widget.CoordinatorLayout>
